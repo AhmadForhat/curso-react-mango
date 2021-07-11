@@ -1,7 +1,7 @@
 {
   "extends": "standard-with-typescript",
   "parserOptions": {
-    "project": "./tsconfig.json"
+    "project": "./tsconfig-eslint.json"
   },
   "rules": {
     "@typescript-eslint/consistent-type-definitions": "off",
@@ -12,7 +12,7 @@
     "@typescript-eslint/no-namespace": "off",
     "no-redeclare": "off",
     "import/export": "off",
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error"
+    "react/jsx-uses-react": "off",
+    "react/jsx-uses-vars": "off"
   }
 }
