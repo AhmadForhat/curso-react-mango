@@ -4,7 +4,7 @@ import Logo from '@/presentation/components/Logo'
 
 import styles from './LoginHeader.module.scss'
 
-const LoginHeader = () => {
+const LoginHeader: React.FC = () => {
   return (
     <header className={styles.header}>
       <Logo />
