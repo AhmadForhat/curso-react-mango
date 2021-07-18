@@ -4,7 +4,7 @@ import Spinner from '@/presentation/components/Spinner'
 
 import styles from './FormStatus.module.scss'
 
-const FormStatus = () => {
+const FormStatus: React.FC = () => {
   return (
     <div className={styles.errorWrap}>
       <Spinner className={styles.spinner} />

@@ -1,9 +1,11 @@
 import React from 'react'
 
-import Header from '@/presentation/components/LoginHeader'
-import Footer from '@/presentation/components/Footer'
-import Input from '@/presentation/components/Input'
-import FormStatus from '@/presentation/components/FormStatus'
+import {
+  Header,
+  Footer,
+  Input,
+  FormStatus
+} from '@/presentation/components'
 
 import styles from './Login.module.scss'
 
